@@ -4,7 +4,6 @@ Project Overview
 
 A professional and responsive website for Katz Plumbing & Contruction based in Limpopo,Moletjie.It is built to advertise their work online ,showcase completed projects,gain exposure and facillitates communication with clients.
 
-live demo : https://komape-pontsho-rouwen.github.io/KPC/
 
 Features: 
 
