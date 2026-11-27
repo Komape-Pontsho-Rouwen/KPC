@@ -1,233 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Katzplumbing&construction</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="crossorigin="anonymous" referrerpolicy="no-referrer"/>
-
-    <link rel = "stylesheet" href="css/styles.css">
-   
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Katz Plumbing &amp; Construction | Moletjie, Polokwane</title>
+  <meta name="description" content="Plumbing, geyser installation, building, plastering, painting and tiling in Moletjie, Polokwane, Limpopo.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Open+Sans:wght@400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/navigation.css">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="css/responsive.css">
 </head>
+<body data-root="" data-page="home">
+  <div id="site-header"></div>
 
-<body>
-    <!-- Home Section -->
+  <main>
 
-    <header class="hero">
-      <div class="hero-container">    
-    <!-- Left Side: Text Content -->
-        <div class="hero-text">     
-            <h1>Welcome to Katz Plumbing & Construction</h1>
-            <p>Building the future with integrity, precision, and expertise — one project at a time.</p>
-            <div class="hero-buttons">
-              <a href="#gallery"class="btn primary-btn">View Our Work</a>
-              <a href="#contacts"class="btn secondary-btn">Contact Us</a>
-            </div>
-        </div>
-
-    <!-- Right Side: Plumber Animation -->
-        <div class="hero-image">
-        <img src="images/building_3.jpeg" alt="Plumber working animation">
-        </div>
-
+    <!-- 2. Hero -->
+    <section class="hero">
+      <div class="hero__media">
+        <!-- Change this one src to change the hero photo -->
+        <img src="images/sink_2.jpeg" alt="Kitchen sink and tap installed by Katz Plumbing &amp; Construction" fetchpriority="high">
       </div>
-   </header>
-   
-   <section id="services" class="service-main">
-    <section class="service-intro">
-      <h1 class="service-heading">Our Plumbing & Construction Services</h1>
-      <h3 class="service-motor"><i> We provide expert plumbing , construction & maintainance solutions to meet all your needs</i></h3>
-    </section>
-
-      <div class="service-grid">
-        <div class="service-card">
-          <div class="service-icon"><i class="fas fa-wrench"></i></div>
-          <h3>Plumbing</h3>
-          <p>Expert plumbing repairs , installation , and maintainance for home and bussinesses</p>
-          </div>
-
-          <div class="service-card">
-            <div class="service-icon"><i class="fas fa-shower"></i></div>
-            <h3>Geyser Installation</h3>
-            <p>Reliable and efficient geyser setup & repairs</p>
-          </div>
-
-          <div class="service-card">
-            <div class="service-icon"><i class="fas fa-hard-hat"></i></div>
-            <h3>Building</h3>
-            <p>Our builders have 10+ years building experience</p>
-            </div>
-
-            <div class="service-card">      
-              <div class="service-icon"><i class="fas fa-fill-drip"></i></div>
-              <h3>Plastering</h3>
-              <p>Neat Interior & Exterior plastering making it easier to paint </p>
-              </div>
-
-              <div class="service-card">
-                <div class="service-icon"><i class="fas fa-paint-roller"></i></div>
-                <h3>Painting</h3>
-                <p>Neat,efficient painting with perfect coverage - no waste  </p>
-              </div>
-
-              <div class="service-card">
-                <div class="service-icon"><i class="fas fa-th"></i></div>
-                <h3>Tilling</h3>
-                <p>Professional wall and floor tile installation</p>
-              </div>
-               
+      <span class="hero__stripe" aria-hidden="true"></span>
+      <div class="container hero__content">
+        <h1>Katz Plumbing &amp;<br><span>Construction</span></h1>
+        <p class="hero__tagline">Trusted since 2014</p>
+        <p class="hero__text">Looking for reliable plumbing and construction services around Polokwane or Mokopane? We specialise in plumbing and provide quality construction solutions for homes and businesses across Limpopo.</p>
+        <div class="btn-row">
+          <a class="btn btn--primary" href="tel:+27824397658">Call Us Now</a>
+          <a class="btn btn--light" href="#services">Explore Our Services</a>
         </div>
-
-    </section>
-
-    <!--Gallery Page-->
-
-    <section id="gallery"class="gallery-main">
-        <h2 class="gallery-heading">Our Projects</h2>
-        <p class="gallery-subheading">
-        
-        These are some of the projects we have done so far
-    </p>
-
-      <div class="gallery-container">
-      <button class="arrow left">&lt;</button>
-
-      <!--The Images That Appear On Our pages-->
-    
-      <div class="gallery-images">
-      <img src="images/sink_2.jpeg" alt="Project 1" class="active">
-      <img src="images/bath_2.jpeg"alt="Project 2">
-      <img src="images/building_3.jpeg"alt="Project3">
-      <img src="images/geysor_3.jpeg" alt="Project 4">
-      <img src="images/jaccuzi.jpeg" alt="Project 5">
-      <img src="images/building_5.jpeg"alt="Project6">
-
-      <!--Hidden Image Gallery-->
-      
-      <img src="images/bath.jpeg"alt="Project6" class="hidden">
-      <img src="images/bathroom.jpeg"alt="Project7" class="hidden">
-      <img src="images/bathroom_2.jpeg"alt="Project8" class="hidden">
-      <img src="images/building.jpeg"alt="Project9" class="hidden">
-      <img src="images/building_2.jpeg"alt="Project10" class="hidden">
-      <img src="images/building_4.jpeg"alt="Project11" class="hidden">
-      <img src="images/building_6.jpeg"alt="Project11" class="hidden">
-      <img src="images/church.jpeg"alt="Project11" class="hidden">
-      <img src="images/church_2.jpeg"alt="Project11" class="hidden">
-      <img src="images/garage.jpeg"alt="Project11" class="hidden">
-      <img src="images/geysor.jpeg"alt="Project11" class="hidden">
-      <img src="images/geysor_2.jpeg"alt="Project11" class="hidden">
-      <img src="images/house.jpeg"alt="Project11" class="hidden">
-      <img src="images/house_2.jpeg"alt="Project11" class="hidden">
-      <img src="images/house_3.jpeg"alt="Project11" class="hidden">
-      <img src="images/sink.jpeg"alt="Project11" class="hidden">
-      <img src="images/sink_3.jpeg"alt="Project11" class="hidden">
-
-      
-    </div>
-    
-    <button class="arrow right">&gt;</button>
-    </div>
-   
-
-    </section>
-
-    <!--About Us Page-->
-
-    <section id="about-us" class="about-usmain">
-        <div class="intro">
-            <h1>About Us</h1>
-            <p class="about-description">Katz Plumbing & Construction is a construction company based in Limpopo Moletjie Ga-Mamadila.Providing a wide range of services from plumbing,building,plastering,painting,installing geysors and floor tiles.We are committed in ensuring that our client not only receive services that are affordable but services that are of quality.KPC has been existing for over 10 years and was founded by none other than Katlego Moloto. </p>
-        </div>
-           
-        <div class="founder-container">
-          <div class="founder-details">
-            <img src="images/founder_image.jpeg"alt="founder-image"class="founder-image">
-            <h2>Katlego Moloto</h2>
-            <p class="profession"> CEO/Founder </p>
-            </div>
-
-            <div class="why-choose-us">
-              <h3>Why Choose Us?</h3>
-                <ul>
-                    <li>Over 10 years of experience</li>
-                    <li>NHBRC Registered</li>
-                    <li>24/7 Service Availability</li>
-                    <li>Expert workers</li>
-                    <li>Guaranteed Customer Satisfaction</li>
-                </ul>
-            </div> 
-
-        </div>
-
-
-        <div class="trust-legacy">
-          <p> With years of experience in the construction industry , we have built strong reputation through our excellent services.Our projects stand as proof of our dedication and customer's satisfaction remains our greatest achievement.
-          </p>
-        </div>
-     
-    </section>
-    
-    <!--Contact Us Section--->
-
-
-    <section id="contacts"class="contact-us">
-    <h2 class="contact-heading">Contact Us</h2>
-    <div class="contact-container">
-      <!-- Left side: Contact Details -->
-      <div class="contact-details">
-        <h3>Contact Details</h3>
-        <p><i class="fas fa-map-marker-alt"></i> Limpopo, Polokwane</p>
-        <p><i class="fas fa-home"></i> 363 Ga-Mamadila,Moletjie </p>
-        <p><i class="fas fa-phone"></i>0824397658</p>
-        <p><i class="fas fa-envelope"></i>katzpc01@gmail.com</p>
       </div>
+    </section>
 
+    <!-- 3. Company introduction -->
+    <section class="intro">
+      <div class="container intro__inner">
+        <p class="intro__label">Katz Plumbing &amp; Construction</p>
+        <h2>Trusted since 2014</h2>
+        <p>Serving homes and businesses across Limpopo for over a decade with dependable plumbing and construction work.</p>
+        <a class="intro__link" href="pages/about.html">Learn more about us</a>
+      </div>
+    </section>
 
-      <!-- Right side: Contact Form -->
-      <form class="contact-form"action="https://formspree.io/f/xzzjyynq" method="POST">
-        <div class="form-row">
-          <input type="text" name="first-name" placeholder="First&Last Names" required autocomplete="new-message">
-          <input type="text" name="location" placeholder="Location" required autocomplete="new-message">
-          <input type="email" name="email" placeholder="Email" required autocomplete="new-message">
+    <!-- 4. Our Services: six aligned cards -->
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section__head section__head--center">
+          <h2>Our Services</h2>
         </div>
-        <textarea name="message" placeholder="Write your message here..." rows="6" required autocomplete="new-message"></textarea>
-        <button type="submit" class="send-btn">Send Message</button>
-      </form>
-    </div>
-</section>
+        <div class="service-grid">
+          <article class="service-card">
+            <img src="images/sink_2.jpeg" alt="Plumbing work" loading="lazy">
+            <div class="service-card__body"><h3>Plumbing</h3><p>Repairs, installations and maintenance for homes and businesses.</p></div>
+            <div class="service-card__actions">
+              <a class="service-card__link" href="pages/services.html#plumbing">View Service</a>
+            </div>
+          </article>
+          <article class="service-card">
+            <img src="images/geysor_3.jpeg" alt="Geyser installation" loading="lazy">
+            <div class="service-card__body"><h3>Geyser Installation</h3><p>Reliable and efficient geyser setup and repairs.</p></div>
+            <div class="service-card__actions">
+              <a class="service-card__link" href="pages/services.html#geyser">View Service</a>
+            </div>
+          </article>
+          <article class="service-card">
+            <img src="images/building_5.jpeg" alt="Painted house" loading="lazy">
+            <div class="service-card__body"><h3>Painting</h3><p>Neat, efficient painting with perfect coverage and no waste.</p></div>
+            <div class="service-card__actions">
+              <a class="service-card__link" href="pages/services.html#painting">View Service</a>
+            </div>
+          </article>
+          <article class="service-card">
+            <img src="images/bathroom.jpeg" alt="Tiled bathroom" loading="lazy">
+            <div class="service-card__body"><h3>Tiling</h3><p>Professional wall and floor tile installation.</p></div>
+            <div class="service-card__actions">
+              <a class="service-card__link" href="pages/services.html#tiling">View Service</a>
+            </div>
+          </article>
 
- <!-- Floating Contact Bar -->
-<div class="floating-contact">
-  <span class="contact-item"><a href="#">Contact Us</a></span>
-  <span class="divider">|</span>
-  <span class="contact-item call-wrapper">
-    <button class="call-btn"><i class="fas fa-phone-alt"></i></button>
-    <div class="call-popup">
-      <span>0614054616</span>
-      <button class="cancel-call">Cancel</button>
-    </div>
-  </span>
-  <span class="divider">|</span>
-  <span class="contact-item">
-    <a href="https://wa.me/27614054616" target="_blank" class="whatsapp-btn">
-      <i class="fab fa-whatsapp"></i>
-    </a>
-  </span>
-</div>
-
-<footer id="site-footer">
-  <p>© 2025 Katz Plumbing & Construction. All rights reserved.</p>
-</footer>
+            <article class="service-card">
+            <img src="images/building_6.jpeg" alt="Building project" loading="lazy">
+            <div class="service-card__body"><h3>Building</h3><p>Builders with more than 10 years of building experience.</p></div>
+            <div class="service-card__actions">
+              <a class="service-card__link" href="pages/services.html#building">View Service</a>
+            </div>
+            </article>
+            
+          <article class="service-card">
+            <img src="images/building_2.jpeg" alt="Plastered building" loading="lazy">
+            <div class="service-card__body"><h3>Plastering</h3><p>Neat interior and exterior plastering that makes painting easier.</p></div>
+            <div class="service-card__actions">
+              <a class="service-card__link" href="pages/services.html#plastering">View Service</a>
+            </div>
+          </article>
+      
+        </div>
+      </div>
+    </section>
 
 
+    <!-- Featured projects -->
+    <section class="section section--compact" id="projects">
+      <div class="container">
+        <div class="section__head section__head--center">
+          <h2>Featured Projects</h2>
+          <p>A few of the projects our team has completed.</p>
+        </div>
+        <div class="featured">
+          <figure class="featured__item"><img src="images/sink_3.jpeg" alt="Plumbing project" loading="lazy"><figcaption>Plumbing</figcaption></figure>
+          <figure class="featured__item"><img src="images/geysor.jpeg" alt="Geyser installation project" loading="lazy"><figcaption>Geyser Installation</figcaption></figure>
+          <figure class="featured__item"><img src="images/bathroom_2.jpeg" alt="Bathroom project" loading="lazy"><figcaption>Bathroom</figcaption></figure>
+          <figure class="featured__item"><img src="images/building_3.jpeg" alt="Building project" loading="lazy"><figcaption>Building</figcaption></figure>
+        </div>
+        <p class="center"><a class="btn btn--dark" href="pages/projects.html">View All Projects</a></p>
+      </div>
+    </section>
 
+    <!-- 6. Customer Reviews (empty state until verified reviews exist) -->
+    <section class="section section--tint" id="reviews">
+      <div class="container">
+        <div class="section__head section__head--center">
+          <h2>Customer Reviews</h2>
+          <p>What our customers say about our work.</p>
+        </div>
+        <div class="reviews" id="reviews-list">
+          <div class="reviews__empty">
+            <p>Customer feedback will appear here. Reviews will come from customers whose jobs we have completed.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  
-<script src="gallery.js"difer></script>
+    <!-- 7. Why Choose Us -->
+    <section class="section" id="why">
+      <div class="container">
+        <div class="section__head section__head--center">
+          <h2>Why Choose Us?</h2>
+        </div>
+        <ul class="strengths">
+          <li class="strength"><span class="strength__icon"><svg><use href="#i-clock"/></svg></span><div><h3>Over 10 years of experience</h3><p>A decade of work in the construction industry.</p></div></li>
+          <li class="strength"><span class="strength__icon"><svg><use href="#i-tools"/></svg></span><div><h3>Expert workers</h3><p>Skilled people across plumbing, building and finishing.</p></div></li>
+          <li class="strength"><span class="strength__icon"><svg><use href="#i-shield"/></svg></span><div><h3>NHBRC registered</h3><p>Registered with the National Home Builders Registration Council.</p></div></li>
+          <li class="strength"><span class="strength__icon"><svg><use href="#i-moon"/></svg></span><div><h3>24/7 availability</h3><p>Service availability around the clock.</p></div></li>
+          <li class="strength"><span class="strength__icon"><svg><use href="#i-tag"/></svg></span><div><h3>Affordable, quality work</h3><p>Services that are affordable and of good quality.</p></div></li>
+          <li class="strength"><span class="strength__icon"><svg><use href="#i-star"/></svg></span><div><h3>Customer satisfaction</h3><p>Our customers’ satisfaction is our greatest achievement.</p></div></li>
+        </ul>
+      </div>
+    </section>
 
-   
+    <!-- 8. Final call to action -->
+    <section class="cta">
+      <div class="container cta__inner">
+        <div>
+          <h2>Ready to talk about your project?</h2>
+          <p>Call us on 061 405 4616 to discuss the plumbing or construction work you need.</p>
+        </div>
+        <a class="btn btn--primary" href="tel:+27824397658">Call Us Now</a>
+      </div>
+    </section>
+  </main>
 
+  <div id="site-footer"></div>
 
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-drop" viewBox="0 0 24 24"><path d="M12 2.5C9 7 5.5 10.5 5.5 14.5a6.5 6.5 0 0 0 13 0C18.5 10.5 15 7 12 2.5z" fill="currentColor"/></symbol>
+    <symbol id="i-geyser" viewBox="0 0 24 24"><rect x="6" y="2.5" width="12" height="16" rx="3" fill="none" stroke="currentColor" stroke-width="2"/><path d="M9 21.5h6M12 18.5v3" stroke="currentColor" stroke-width="2" fill="none"/></symbol>
+    <symbol id="i-house" viewBox="0 0 24 24"><path d="M3 11.5 12 3l9 8.5M5.5 10v10.5h13V10M10 20.5v-6h4v6" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="i-trowel" viewBox="0 0 24 24"><path d="M3 19 13 9l3 3L6 22zM14 8l3-3 3 3-3 3" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="i-roller" viewBox="0 0 24 24"><rect x="3" y="3" width="15" height="6" rx="1.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M18 6h3v6H11v3M11 15v6" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+    <symbol id="i-tile" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="1" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3.5v17M3.5 12h17" stroke="currentColor" stroke-width="2"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 7v5l3.5 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-tools" viewBox="0 0 24 24"><path d="M14.5 5.5a4.5 4.5 0 0 0 5 5L10 20a2.1 2.1 0 0 1-3-3z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 4.5 6v5.5c0 4.5 3 8 7.5 9.5 4.5-1.500 7.500-5 7.500-9.500V6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="m8.500 12 2.500 2.500 4.500-5" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 14.500A8 8 0 0 1 9.500 4 8 8 0 1 0 20 14.500z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="i-tag" viewBox="0 0 24 24"><path d="M3.500 12.500V4.500h8l9 9-8 8z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="8" cy="9" r="1.500" fill="currentColor"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 3 2.700 5.600 6.100.8-4.500 4.300 1.100 6.100L12 16.800 6.600 19.800l1.100-6.100L3.200 9.400l6.100-.8z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+  </svg>
 
+  <script src="js/components.js"></script>
+  <script src="js/navigation.js"></script>
 </body>
 </html>
